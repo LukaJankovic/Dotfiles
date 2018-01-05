@@ -1,13 +1,6 @@
-alias calcurse="sh ~/Documents/Shell/calcurse-googlecal"
-alias messenger="messer ~/.messer.json"
-alias weather="wego"
 alias emacs="emacs -nw"
 
-export GOPATH=$HOME/Binaries/Go
-export PATH=$PATH:/Users/luka/Binaries/:$GOPATH/bin
-export COCOAPODS_DISABLE_STATS='true'
-
-export PS1="%{%F{blue}%} LDesktop │ %{%F{black}%}$ "
+export PS1="%{%F{blue}%} %M │ %{%F{black}%}$ "
 export RPROMPT="%F{blue}%} │ %h"
 
 clear
