@@ -22,7 +22,7 @@ URxvt*borderLess: true
 #define nord10 #5E81AC
 #define nord11 #BF616A
 #define nord12 #D08770
-#define nord13 #EBCB8B
+#define nord13 #CDAD6D
 #define nord14 #A3BE8C
 #define nord15 #B48EAD
 #define back #E0E0E0

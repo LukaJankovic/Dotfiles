@@ -15,6 +15,9 @@ dotfiles:
   f_compton.conf:
     dst: ~/.config/compton.conf
     src: config/compton.conf
+  f_dunstrc:
+    dst: ~/.config/dunst/dunstrc
+    src: config/dunst/dunstrc
   f_emacs:
     dst: ~/.emacs
     src: emacs
@@ -46,3 +49,4 @@ profiles:
     - f_tmux.conf
     - f_xresources
     - f_compton.conf
+    - f_dunstrc

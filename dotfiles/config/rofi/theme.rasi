@@ -19,8 +19,6 @@
 	background-color: @default-background;		
 	border-radius: 2px;
 	transparency: "screenshot";
-	border: 2;
-	border-color: @foreground-color;
 }
 
 #mainbox {

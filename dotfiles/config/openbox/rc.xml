@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Bear2</name>
+    <name>1977-Black</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -179,7 +179,11 @@
   <keyboard>
     <chainQuitKey>C-g</chainQuitKey>
     <!-- Keybindings for launching apps -->
-    <keybind key="W-t">   <action name="Execute"><command>urxvt</command></action></keybind>
+    <keybind key="W-t">
+      <action name="Execute">
+        <command>urxvt</command>
+      </action>
+    </keybind>
     <!-- Keybindings for desktop switching -->
     <keybind key="C-A-Left">
       <action name="GoToDesktop">
@@ -329,23 +333,23 @@
     <!-- Keybindings for running applications -->
     <keybind key="W-Return">
       <action name="MoveResizeTo">
-	<x>center</x>
-	<y>center</y>
+        <x>center</x>
+        <y>center</y>
       </action>
     </keybind>
     <keybind key="W-space">
       <action name="Execute">
-	<command>rofi -show drun -theme /home/luka/.config/rofi/theme.rasi -config /home/luka/.config/rofi/config.rasi -display-drun ""</command>
+        <command>rofi -show drun -theme /home/luka/.config/rofi/theme.rasi -config /home/luka/.config/rofi/config.rasi -display-drun ""</command>
       </action>
     </keybind>
     <keybind key="XF86AudioLowerVolume">
       <action name="Execute">
-	<command>amixer set Master 5%-</command>
+        <command>amixer set Master 5%-</command>
       </action>
     </keybind>
     <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
-	<command>amixer set Master 5%+</command>
+        <command>amixer set Master 5%+</command>
       </action>
     </keybind>
     <keybind key="W-e">
