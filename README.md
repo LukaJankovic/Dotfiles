@@ -14,6 +14,8 @@ Alt + Right click, drag = resize
 
 ## Other 
 
+Super + Space = rofi (like spotlight on macOS)
+
 Super + Enter = center
 
 Super + T = new terminal
