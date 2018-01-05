@@ -12,6 +12,9 @@ dotfiles:
   d_rofi:
     dst: ~/.config/rofi
     src: config/rofi
+  f_compton.conf:
+    dst: ~/.config/compton.conf
+    src: config/compton.conf
   f_emacs:
     dst: ~/.emacs
     src: emacs
@@ -42,3 +45,4 @@ profiles:
     - f_startup
     - f_tmux.conf
     - f_xresources
+    - f_compton.conf
