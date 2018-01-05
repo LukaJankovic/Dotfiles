@@ -1,0 +1,62 @@
+* {
+	default-background: #E0E0E0;
+	foreground-color: #455A64;
+
+	font: "Roboto 20";
+	text-color: @foreground-color;
+}
+
+#prompt-box {
+	background-color: transparent;
+}
+
+#prompt {
+	background-color: transparent;
+}
+
+#window {
+	padding: 10px;	
+	background-color: @default-background;		
+	border-radius: 2px;
+	transparency: "screenshot";
+	border: 2;
+	border-color: @foreground-color;
+}
+
+#mainbox {
+	background-color: @foreground-color;
+}
+
+#listview {
+	background-color: @default-background;
+	scrollbar: false;
+}
+
+#element {
+	background-color: @default-background;
+}
+
+#element.selected.normal {
+	text-color: #000;
+}
+
+#inputbar {
+	background-color: @default-background;
+}
+
+#prompt {
+	background-color: @default-background;
+}
+
+#textbox {
+	background-color: @default-background;
+}
+
+#entry {
+	background-color: @default-background;
+}
+
+#separator {
+	height: 1px;
+	color: rgba(0,0,0,0.5);
+}

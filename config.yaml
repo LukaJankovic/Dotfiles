@@ -3,4 +3,42 @@ config:
   create: true
   dotpath: dotfiles
 dotfiles:
+  d_openbox:
+    dst: ~/.config/openbox
+    src: config/openbox
+  d_polybar:
+    dst: ~/.config/polybar
+    src: config/polybar
+  d_rofi:
+    dst: ~/.config/rofi
+    src: config/rofi
+  f_emacs:
+    dst: ~/.emacs
+    src: emacs
+  f_music.sh:
+    dst: ~/Documents/Shell/music.sh
+    src: Documents/Shell/music.sh
+  f_startup:
+    dst: ~/.startup
+    src: startup
+  f_tmux.conf:
+    dst: ~/.tmux.conf
+    src: tmux.conf
+  f_xresources:
+    dst: ~/.Xresources
+    src: Xresources
+  f_zshrc:
+    dst: ~/.zshrc
+    src: zshrc
 profiles:
+  LDesktop:
+    dotfiles:
+    - f_emacs
+    - d_rofi
+    - d_openbox
+    - d_polybar
+    - f_music.sh
+    - f_zshrc
+    - f_startup
+    - f_tmux.conf
+    - f_xresources
