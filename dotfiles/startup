@@ -1,7 +1,7 @@
 alias emacs="emacs -nw"
 
-export PS1="%{%F{blue}%} %M │ %{%F{black}%}$ "
-export RPROMPT="%F{blue}%} │ %h"
+export PS1="%M │$ "
+export RPROMPT="│ %h"
 
 clear
 
