@@ -15,7 +15,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (auto-indent-mode vala-mode xclip multiple-cursors ##))))
+    (json-mode auto-indent-mode vala-mode xclip multiple-cursors ##))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -52,16 +52,19 @@
 (setq linum-format "%4d \u2502 ")
 (set-face-foreground 'linum "white")
 
-(set-face-attribute 'region nil :background "#505050")
-
 ;; Coloring
-(set-face-attribute 'font-lock-comment-face nil :foreground "#679493")
+(set-face-attribute 'font-lock-comment-face nil :foreground "green")
 (set-face-attribute 'font-lock-string-face nil :foreground "red")
 (set-face-attribute 'font-lock-constant-face nil :foreground "red")
 (set-face-attribute 'font-lock-keyword-face nil :foreground "magenta")
 (set-face-attribute 'font-lock-function-name-face nil :foreground "blue")
 (set-face-attribute 'font-lock-variable-name-face nil :foreground "blue")
 (set-face-attribute 'font-lock-type-face nil :foreground "green")
+(set-face-attribute 'font-lock-builtin-face nil :foreground "blue")
+(set-face-attribute 'region nil :background "white" :foreground "black")
 
 ;; Clipboard fix
 (xclip-mode 1)
+
+;; Debug
+(setq debug-on-error t)
